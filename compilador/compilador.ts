@@ -23,3 +23,10 @@ function saudar(isManha: boolean){
 // StrictNullChecks - não aceita valores nullos em variaveis, como retorno sendo nullo
 // NOUNUSEDPARAMETERS - parametros que nao são usados
 // NOUNUSEDLOCALS - não permite variaveis locais nao sendo usadas
+
+
+// LINKS ÚTEIS
+
+// https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
