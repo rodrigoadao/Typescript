@@ -1,13 +1,13 @@
 "use strict";
-var canal = 'Gaveta';
-var inscritos = 610234;
+let canal = 'Gaveta';
+let inscritos = 610234;
 // canal = inscritos
 console.log('Canal');
 function soma(a, b) {
     return a + b;
 }
 function saudar(isManha) {
-    var saudacao;
+    let saudacao;
     if (isManha) {
         saudacao = 'Bom Dia!';
     }
@@ -19,4 +19,7 @@ function saudar(isManha) {
 // StrictNullChecks - não aceita valores nullos em variaveis, como retorno sendo nullo
 // NOUNUSEDPARAMETERS - parametros que nao são usados
 // NOUNUSEDLOCALS - não permite variaveis locais nao sendo usadas
+// LINKS ÚTEIS
+// https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
 //# sourceMappingURL=compilador.js.map
