@@ -37,7 +37,6 @@ class objeto2D {
     public area(): number{
         return this._base * this._altura
     }
-
     
 }
  
@@ -55,7 +54,6 @@ class Estagiario {
     }
 }
 
- 
 const estagiario1 = new Estagiario()
 console.log(estagiario1.name)
 estagiario1.name = 'Le'
